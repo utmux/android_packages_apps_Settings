@@ -4687,4 +4687,15 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"“<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>”想连接到此手机。\n\n您之前没有连接过“<xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>”。"</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"不连接"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"连接"</string>
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_summary">设置充电上限或使用旁路充电</string>
+    <string name="charge_limit_switch_title">限制电池充电</string>
+    <string name="charge_limit_switch_summary">达到所选电量时暂停充电，低于该值 5% 后恢复</string>
+    <string name="charge_limit_level_title">充电至 %1$d%% 时停止</string>
+    <string name="bypass_charging_title">旁路充电</string>
+    <string name="bypass_charging_summary">由充电器直接为手机供电而不向电池充电；电量低于 20% 时会为安全起见恢复充电</string>
+    <string name="charging_control_status_title">当前模式</string>
+    <string name="charging_control_status_normal">正常充电</string>
+    <string name="charging_control_status_limit">充电至 %1$d%% 时停止，低于 %2$d%% 时恢复</string>
+    <string name="charging_control_status_bypass">旁路充电；低电量保护仍然生效</string>
 </resources>

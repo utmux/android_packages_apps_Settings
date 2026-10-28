@@ -391,6 +391,9 @@
     <!-- Whether top_level_battery should be shown or not. -->
     <bool name="config_show_top_level_battery">true</bool>
 
+    <!-- Whether device-specific charging controls should be shown. -->
+    <bool name="config_show_charging_control">false</bool>
+
     <!-- Whether top_level_connected_devices should be shown or not. -->
     <bool name="config_show_top_level_connected_devices">true</bool>
 
