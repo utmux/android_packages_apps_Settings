@@ -11482,7 +11482,7 @@
     <string name="charging_control_title">Charging control</string>
     <string name="charging_control_summary">Set a charge limit or use bypass charging</string>
     <string name="charge_limit_switch_title">Limit battery charging</string>
-    <string name="charge_limit_switch_summary">Pause charging at the selected level and resume 5% below it</string>
+    <string name="charge_limit_switch_summary">Pause charging at the selected level and resume at 40%</string>
     <string name="charge_limit_level_title">Stop charging at %1$d%%</string>
     <string name="bypass_charging_title">Bypass charging</string>
     <string name="bypass_charging_summary">Power the phone from the charger without charging the battery. Below 20%, charging resumes for safety.</string>

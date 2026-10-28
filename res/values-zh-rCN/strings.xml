@@ -4690,7 +4690,7 @@
     <string name="charging_control_title">充电控制</string>
     <string name="charging_control_summary">设置充电上限或使用旁路充电</string>
     <string name="charge_limit_switch_title">限制电池充电</string>
-    <string name="charge_limit_switch_summary">达到所选电量时暂停充电，低于该值 5% 后恢复</string>
+    <string name="charge_limit_switch_summary">达到所选电量时暂停充电，降至 40% 后恢复</string>
     <string name="charge_limit_level_title">充电至 %1$d%% 时停止</string>
     <string name="bypass_charging_title">旁路充电</string>
     <string name="bypass_charging_summary">由充电器直接为手机供电而不向电池充电；电量低于 20% 时会为安全起见恢复充电</string>

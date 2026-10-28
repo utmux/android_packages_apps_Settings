@@ -44,7 +44,7 @@ public class ChargingControlSettings extends SettingsPreferenceFragment
     private static final int DEFAULT_CHARGE_END = 80;
     private static final int MIN_CHARGE_END = 50;
     private static final int MAX_CHARGE_END = 100;
-    private static final int CHARGE_HYSTERESIS = 5;
+    private static final int CHARGE_START_THRESHOLD = 40;
 
     private SwitchPreference mChargeLimitSwitch;
     private SeekBarPreference mChargeLimitLevel;
@@ -94,7 +94,7 @@ public class ChargingControlSettings extends SettingsPreferenceFragment
         if (preference == mChargeLimitLevel) {
             final int endThreshold = clamp((Integer) newValue,
                     MIN_CHARGE_END, MAX_CHARGE_END);
-            final int startThreshold = endThreshold - CHARGE_HYSTERESIS;
+            final int startThreshold = CHARGE_START_THRESHOLD;
 
             // Set the lower threshold first; changing the upper threshold triggers init to
             // reapply both values in a validation-safe order.
@@ -134,7 +134,7 @@ public class ChargingControlSettings extends SettingsPreferenceFragment
 
     private void updateUi(boolean chargeLimitEnabled, boolean bypassChargingEnabled,
             int endThreshold) {
-        final int startThreshold = endThreshold - CHARGE_HYSTERESIS;
+        final int startThreshold = CHARGE_START_THRESHOLD;
 
         mChargeLimitSwitch.setChecked(chargeLimitEnabled);
         mBypassChargingSwitch.setChecked(bypassChargingEnabled);
