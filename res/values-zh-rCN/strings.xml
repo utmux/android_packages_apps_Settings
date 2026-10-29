@@ -4693,9 +4693,9 @@
     <string name="charge_limit_switch_summary">达到所选电量时暂停充电，降至 40% 后恢复</string>
     <string name="charge_limit_level_title">充电至 %1$d%% 时停止</string>
     <string name="bypass_charging_title">旁路充电</string>
-    <string name="bypass_charging_summary">由充电器直接为手机供电而不向电池充电；电量低于 20% 时会为安全起见恢复充电</string>
+    <string name="bypass_charging_summary">由外部电源直接供电而不向电池充电；输入电流至少需要 1 A，电脑 USB 不可用。低电量触发后将锁定正常充电，直至重新插拔电源或关闭再开启旁路</string>
     <string name="charging_control_status_title">当前模式</string>
     <string name="charging_control_status_normal">正常充电</string>
     <string name="charging_control_status_limit">充电至 %1$d%% 时停止，低于 %2$d%% 时恢复</string>
-    <string name="charging_control_status_bypass">旁路充电；低电量保护仍然生效</string>
+    <string name="charging_control_status_bypass">已请求旁路；仅在输入电流至少 1 A 且电量充足时生效</string>
 </resources>

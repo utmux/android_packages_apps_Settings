@@ -11485,9 +11485,9 @@
     <string name="charge_limit_switch_summary">Pause charging at the selected level and resume at 40%</string>
     <string name="charge_limit_level_title">Stop charging at %1$d%%</string>
     <string name="bypass_charging_title">Bypass charging</string>
-    <string name="bypass_charging_summary">Power the phone from the charger without charging the battery. Below 20%, charging resumes for safety.</string>
+    <string name="bypass_charging_summary">Power the phone without charging the battery. Requires at least 1 A input and is unavailable on computer USB. Low battery locks normal charging until power is reconnected or bypass is toggled.</string>
     <string name="charging_control_status_title">Current mode</string>
     <string name="charging_control_status_normal">Normal charging</string>
     <string name="charging_control_status_limit">Charging stops at %1$d%% and resumes below %2$d%%</string>
-    <string name="charging_control_status_bypass">Bypass charging; low-battery protection remains active</string>
+    <string name="charging_control_status_bypass">Bypass requested; active only with at least 1 A input and sufficient battery</string>
 </resources>
